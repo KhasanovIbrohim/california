@@ -148,65 +148,91 @@
     .sales-laptop {
         margin-left: 100px;
     }
+
     .ideas-row {
         display: block;
         flex-wrap: wrap;
     }
+
     .idea-book {
         width: 600px;
     }
+
     .ideas-sentence {
         font-size: 22px;
         margin-left: 25px;
     }
+
     .search-input {
         width: 550px;
         margin: 25px;
     }
+
     .search-input input {
         border-radius: 100px;
     }
-    .search-row{
+
+    .search-row {
         width: 550px;
         margin-left: 25px;
     }
+
     .search-low {
         width: 450px;
         margin-left: 75px;
     }
+
     .search-ad {
         width: 550px;
         margin-left: 25px;
     }
+
     .s-ad-box {
         margin-left: 75px;
     }
-    .s-ad-img{
+
+    .s-ad-img {
         margin-left: 165px;
     }
+
     .s-ad-text {
         margin-left: 75px;
         width: 400px;
     }
+
+    .footer {
+        width: 600px;
+    }
+
     .footer-row {
         width: 600px;
         display: block;
         flex-wrap: wrap;
     }
+
     .footer-box {
         margin-left: 25px;
     }
+
     .footer-links {
         margin-left: 25px;
     }
+
     .links-1 {
         margin-top: 19px;
     }
+
     .f-low-title {
         width: 250px;
     }
+
     .f-low-text {
         margin-left: 0px;
         width: 250px;
+    }
+
+    .search-input img {
+        height: 29px;
+        width: 30px;
     }
 }
