@@ -90,7 +90,7 @@
     display: none;
     width: 600px;
     background-color: white;
-    height: 100vh;
+    min-height: 100%; 
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
