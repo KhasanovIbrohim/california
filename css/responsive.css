@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+    .container {
+      width: 600px;
+    }
+    .nav-list {
+        display: none;
+    }
+    .nav-logo {
+        margin-left: 50px;
+    }
+    .intro-box {
+        width: 550px;
+        margin-left: 50px;
+    }
+    .intro-row {
+        width: 500px;
+    }
+    .intro-title {
+        width: 500px;
+        font-size: 45px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .intro-text {
+        width: 500px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .intro-background {
+        display: none;
+    }
+    .intro-btn {
+        margin-left: 190px;
+    }
+} 

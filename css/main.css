@@ -1,0 +1,808 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+:root {
+    --danger-black: #000000;
+    --light-gray: #DCE5E2;
+}
+
+.nav {
+    height: 80px;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-logo {
+    margin-top: 30px;
+    margin-left: 73px;
+    margin-right: 251px;
+    cursor: pointer;
+    height: 21px;
+    width: 170px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-li {
+    margin-top: 32px;
+    margin-left: 33px;
+}
+
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: var(--danger-black);
+    transition: all 0.3s;
+}
+
+.nav-vector {
+    height: 5px;
+    width: 10px;
+    margin-left: 4px;
+    margin-top: 40px;
+}
+
+.nav-search {
+    height: 24px;
+    width: 24px;
+    margin-top: 28px;
+    margin-left: 298px;
+    cursor: pointer;
+}
+
+.nav-cart {
+    height: 24px;
+    width: 24px;
+    margin-top: 28px;
+    margin-left: 22px;
+    cursor: pointer;
+}
+
+.intro-box {
+    background: var(--light-gray);
+    height: 550px;
+    width: 1294px;
+    border-radius: 32px;
+    margin-left: 73px;
+    margin-top: 28px;
+    display: flex;
+}
+
+.nav-dropdown {
+    width: 150px;
+    display: none;
+}
+
+.dropdown-li {
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    transition: all 0.3s;
+}
+
+.dropdown-link {
+    color: var(--danger-black);
+    transition: all 0.3s;
+}
+
+.intro-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 70px;
+    color: var(--danger-black);
+    margin-top: 145px;
+    margin-left: 56px;
+    height: 140px;
+    width: 588px;
+}
+
+.intro-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--danger-black);
+    margin-top: 19px;
+    margin-left: 56px;
+}
+
+.intro-btn {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: var(--danger-black);
+    height: 50px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: var(--light-gray);
+    margin-top: 30px;
+    margin-left: 56px;
+    transition: all 0.3s;
+}
+
+.intro-background {
+    margin-left: 30px;
+    animation: 2s show ease;
+    width: 647px;
+    height: 550px;
+}
+
+/* @keyframes show {
+    from {
+        margin-left: 647px;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+        margin-left: 30px;
+    }
+} */
+
+.category {
+    margin-top: 75px;
+}
+
+.category-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: var(--danger-black);
+}
+
+.category-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: var(--danger-black);
+    margin-top: 9px;
+}
+
+.category-box {
+    display: flex;
+    margin-top: 55px;
+}
+
+.category-laptop {
+    height: 472px;
+    width: 639px;
+    background: #FFFFFF;
+    margin-left: 73px;
+    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+}
+
+.laptop-img {
+    margin-left: 42px;
+}
+
+.laptop-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: var(--danger-black);
+    margin-right: 42px;
+}
+
+.laptop-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: var(--danger-black);
+    margin-right: 42px;
+}
+
+.category-watch {
+    margin-top: 72px;
+    margin-left: 73px;
+    display: flex;
+    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+}
+
+.watch-box {
+    margin-top: 106px;
+    margin-left: 66px;
+}
+
+.watch-img {
+    margin-left: 42px;
+}
+
+.watch-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: var(--danger-black);
+}
+
+.watch-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: right;
+    color: var(--danger-black);
+}
+
+.laptop-img {
+    height: 377px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+}
+
+.category-list {
+    display: flex;
+}
+
+.category-phone {
+    height: 792px;
+    width: 312px;
+    left: 0px;
+    top: 0px;
+    margin-left: 16px;
+    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+}
+
+.phone-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--danger-black);
+    margin-top: 41px;
+}
+
+.phone-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--danger-black);
+}
+
+.phone-img {
+    margin-top: 144px;
+}
+
+.table-img {
+    margin-top: 42px;
+}
+
+.category-table {
+    margin-left: 16px;
+    height: 792px;
+    width: 312px;
+    left: 0px;
+    top: 0px;
+    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+}
+
+.table-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--danger-black);
+    margin-top: 114px;
+}
+
+.table-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: var(--danger-black);
+}
+
+.products-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 78px;
+}
+
+.products-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.products-box {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+
+.technic {
+    width: 303px;
+}
+
+.technic-img {
+    width: 247px;
+    height: 214px;
+    margin: 28px 37px 28px 28px;
+}
+
+.technic-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.technic-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4B4B4B;
+    margin-top: 9px;
+}
+
+.technic-price {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 25px;
+}
+
+.sales-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.sales-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #000000;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.sales-row {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sales-box {
+    height: 453px;
+    width: 413px;
+    border-radius: 16px;
+    background: #F8F9FA;
+    border-radius: 16px;
+}
+
+.sales_title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-top: 41px;
+}
+
+.sales_text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 44px;
+}
+
+.sales-explore {
+    border: 1px solid #000000;
+    border-radius: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+    margin-top: 100px;
+    padding: 14px 63px 14px 63px;
+    margin-left: 111px;
+    transition: all 0.3s;
+}
+
+.sales-img {
+    margin-top: 44px;
+}
+
+.sales-watch {
+    margin-left: 77px;
+}
+
+.sales-apple {
+    margin-left: 59px;
+}
+
+.sales-laptop {
+    margin-left: 29px;
+}
+
+.ideas-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 75px;
+}
+
+.ideas-text {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-top: 9px;
+}
+
+.ideas-row {
+    display: flex;
+    margin-top: 56px;
+    justify-content: space-evenly;
+}
+
+.ideas-sentence {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.ideas-br {
+    margin-top: 28px;
+}
+
+.ideas-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+    text-align: center;
+}
+
+.ideas-link img {
+    height: 28px;
+    width: 30px;
+    transform: translateY(7px);
+}
+
+.ideas-p {
+    text-align: center;
+    margin-top: 73px;
+}
+
+.search-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-top: 75px;
+}
+
+.search-input {
+    background: #F8F9FA;
+    border: 1px solid #C5C5C5;
+    border-radius: 100px;
+    height: 60px;
+    width: 650px;
+    border-radius: 100px;
+    display: flex;
+    margin-top: 25px;
+    margin-left: 395px;
+}
+
+.search-input .search-i {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    width: 550px;
+    background: #F8F9FA;
+    border: none;
+    outline: none;
+}
+
+.search-input img {
+    padding: 15px 20px 16px 17px;
+}
+
+.search-row {
+    width: 550px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 449px;
+    margin-top: 18px;
+}
+
+.search-low {
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 503px;
+    margin-top: 7px;
+}
+
+.search-product {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #C5C5C5;
+    border-radius: 200px;
+}
+
+.search-product p {
+    padding: 12px 22px 13px 22px;
+}
+
+.search-ad {
+    background: #DCE5E2;
+    border-radius: 16px;
+    margin-top: 68px;
+    height: 450px;
+    width: 935px;
+    margin-left: 253px;
+    border-radius: 16px;
+}
+
+.s-ad-box {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    margin-left: 267px;
+    margin-top: 14px;
+}
+
+.s-ad-box input {
+    background: #DCE5E2;
+    border: 1px solid #000000;
+    border-radius: 54px 0px 0px 54px;
+    height: 50px;
+    width: 285px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    outline: none;
+    padding-left: 32px;
+}
+
+.s-ad-box button {
+    background: #000000;
+    border-radius: 0px 200px 200px 0px;
+    color: white;
+    outline: none;
+    height: 52px;
+    width: 115px;
+}
+
+.s-ad-title {
+    padding-top: 47px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+}
+
+.s-ad-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    margin-top: 9px;
+}
+
+.s-ad-img {
+    margin-left: 351px;
+    margin-top: 14px;
+}
+
+.footer {
+    background-color: #F8F9FA;
+    margin-top: 19px;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 55px;
+    padding-left: 73px;
+    border-bottom: 2px solid #DCE5E2;
+}
+
+.footer-text {
+    margin-top: 18px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.footer-title {
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.footer-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.footer-links {
+    padding-bottom: 78px;
+}
+
+.footer-low {
+    display: flex;
+}
+
+.f-low-title {
+    margin-left: 72px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.f-low-title span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.f-low-title img {
+    transform: translateY(9px);
+}
+
+.f-low-text {
+    margin-left: 906px;
+    font-family: 'Readex Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.f-low-text span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.f-low-text img {
+    transform: translateY(9px);
+}

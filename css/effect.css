@@ -1,0 +1,23 @@
+.nav-link:hover {
+    color: #DCE5E2;
+}
+
+.intro-btn:hover {
+    background-color: black;
+    color: #DCE5E2;
+    box-shadow: 0px 0px 15px 1px black;
+}
+
+.sales-explore:hover {
+    background-color: black;
+    color: #DCE5E2;
+    box-shadow: 0px 0px 15px 1px black;
+}
+
+.dropdown-li:hover {
+    background-color: black;
+}
+
+.dropdown-li:hover .dropdown-link {
+    color: white;
+}
