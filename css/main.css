@@ -67,6 +67,27 @@
     cursor: pointer;
 }
 
+.burger-menu {
+    display: none;
+}
+
+.burger-btn {
+    margin-top: 15px;
+    margin-left: 80px;
+    width: 50px;
+    background-color: white;
+    height: 50px;
+    border: none;
+}
+
+.burger-box {
+    position: absolute;
+    display: none;
+    width: 600px;
+    background-color: white;
+    height: 100vh;
+}
+
 .nav-cart {
     height: 24px;
     width: 24px;
@@ -145,6 +166,7 @@
     margin-top: 30px;
     margin-left: 56px;
     transition: all 0.3s;
+    border: 2px solid black;
 }
 
 .intro-background {

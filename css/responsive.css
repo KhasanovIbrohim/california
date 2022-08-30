@@ -6,11 +6,11 @@
         display: none;
     }
     .nav-logo {
-        margin-left: 50px;
+        margin-left: 25px;
     }
     .intro-box {
         width: 550px;
-        margin-left: 50px;
+        margin-left: 25px;
     }
     .intro-row {
         width: 500px;
@@ -31,5 +31,8 @@
     }
     .intro-btn {
         margin-left: 190px;
+    }
+    .burger-menu {
+        display: block;
     }
 } 
