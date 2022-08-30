@@ -27,25 +27,35 @@
                 <img src="./img/logos/logo.png" alt="logo" class="nav-logo">
                 <button class="burger-btn" onclick="burgerOpen()"><img src="https://img.icons8.com/ios/50/000000/menu-rounded.png" class="burger-menu"/></button>
                 <div class="burger-box">
-                    <button class="burger-btn" onclick="burgerClose()"><img src="https://img.icons8.com/ios-filled/50/000000/delete-sign--v1.png" class="burger-menu"/></button>    
-                    <a href="#" class="burger-link">All products</a>
-                    <a href="#" class="burger-link">Solutions</a>
-                    <a href="#" class="burger-link">About</a>
-                    <a href="#" class="burger-link">Support</a>
+                    <button class="burger-close" onclick="burgerClose()"><img src="https://img.icons8.com/ios-filled/50/000000/delete-sign--v1.png" class="burger-menu"/></button>    
+                    <ul>
+                        <li>
+                            <a href="#products" class="burger-link">All products</a>
+                        </li>
+                        <li>
+                            <a href="#solutions" class="burger-link">Solutions</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="burger-link">About</a>
+                        </li>
+                        <li>
+                            <a href="#support" class="burger-link">Support</a>
+                        </li>
+                    </ul>
                 </div>
                 <ul class="nav-list">
                     <li class="nav-li">
-                        <a href="#" class="nav-link">all products</a>
+                        <a href="#products" class="nav-link">all products</a>
                     </li>
                     <li class="nav-li dropdown-start">
-                        <a href="#" class="nav-link">Solutions</a>
+                        <a href="#solutions" class="nav-link">Solutions</a>
                     </li>
                     <img src="./img/logos/Vector.png" alt="vactor" class="nav-vector">
                     <li class="nav-li">
-                        <a href="#" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-li">
-                        <a href="#" class="nav-link">Support</a>
+                        <a href="#support" class="nav-link">Support</a>
                     </li>
                 </ul>
                 <img src="./img/logos/search.png" alt="logo" class="nav-search">
@@ -107,7 +117,7 @@
             </div>
         </div>
     </section>
-    <section class="products">
+    <section class="products" id="products">
         <div class="container">
             <h1 class="products-title">Save on our most selled items.</h1>
             <p class="products-text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
@@ -169,7 +179,7 @@
             </div>
         </div>
     </section>
-    <section class="ideas">
+    <section class="ideas" id="about">
         <div class="container">
             <h1 class="ideas-title">Ideas have a place here</h1>
             <p class="ideas-text">Our new Limited Edition Winter Design BESPOKE 4-Door Flex™</p>
@@ -189,7 +199,7 @@
             </h1>
         </div>
     </section>
-    <section class="search">
+    <section class="search" id="solutions">
         <div class="container">
             <h1 class="search-title">Looking for anything else?</h1>
             <div class="search-box">
@@ -229,7 +239,7 @@
                     <p>Mobile</p>
                 </div>
             </div>
-            <div class="search-ad">
+            <div class="search-ad" id="support">
                 <h1 class="s-ad-title">Never miss a thing</h1>
                 <h1 class="s-ad-text">Sign up for texts to be notified about our best offers on the perfect gifts.</h1>
                 <img src="./img/images/searchapple.png" alt="apple" class="s-ad-img">
@@ -243,12 +253,12 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-row">
-                <div class="footer-box">
+                <div class="footer-box" style="margin-left: 73px;">
                     <img src="./img/logos/logo.png" alt="logo" class="footer-img">
                     <p class="footer-text">Sign up for texts to be notified about <br> our best offers on the perfect
                         gifts.</p>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" style="margin-left: 118px;">
                     <h1 class="footer-title">All products</h1>
                     <ul>
                         <li style="margin-top: 19px;">
@@ -265,7 +275,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" style="margin-left: 93px;">
                     <h1 class="footer-title">Company</h1>
                     <ul>
                         <li style="margin-top: 19px;">
@@ -276,7 +286,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" style="margin-left: 121px;">
                     <h1 class="footer-title">Support</h1>
                     <ul>
                         <li style="margin-top: 19px;">
@@ -293,7 +303,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer-links">
+                <div class="footer-links" style="margin-left: 124px;">
                     <h1 class="footer-title">Follow Us</h1>
                     <ul>
                         <li style="margin-top: 19px;">

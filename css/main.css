@@ -3,6 +3,7 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -63,7 +64,7 @@
     height: 24px;
     width: 24px;
     margin-top: 28px;
-    margin-left: 298px;
+    margin-left: 350px;
     cursor: pointer;
 }
 
@@ -78,6 +79,14 @@
     background-color: white;
     height: 50px;
     border: none;
+    display: none;
+}
+
+.burger-close {
+    margin-left: 25px;
+    background-color: white;
+    border: none;
+    margin-top: 10px;
 }
 
 .burger-box {
@@ -86,6 +95,28 @@
     width: 600px;
     background-color: white;
     height: 100vh;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.burger-box ul {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.burger-box ul li {
+    margin-top: 20px;
+}
+
+.burger-box ul li a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 .nav-cart {
@@ -741,9 +772,7 @@
 
 .footer-row {
     display: flex;
-    justify-content: space-between;
     padding-top: 55px;
-    padding-left: 73px;
     border-bottom: 2px solid #DCE5E2;
 }
 

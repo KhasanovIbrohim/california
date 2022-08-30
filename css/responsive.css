@@ -2,6 +2,9 @@
     .container {
       width: 600px;
     }
+    .nav {
+        width: 600px;
+    }
     .nav-list {
         display: none;
     }
@@ -32,7 +35,7 @@
     .intro-btn {
         margin-left: 190px;
     }
-    .burger-menu {
+    .burger-btn {
         display: block;
     }
 } 
