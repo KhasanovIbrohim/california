@@ -68,10 +68,6 @@
     cursor: pointer;
 }
 
-.burger-menu {
-    display: none;
-}
-
 .burger-btn {
     margin-top: 15px;
     margin-left: 80px;
