@@ -1,41 +1,212 @@
 @media (max-width: 600px) {
     .container {
-      width: 600px;
+        width: 600px;
     }
+
     .nav {
         width: 600px;
     }
+
     .nav-list {
         display: none;
     }
+
     .nav-logo {
         margin-left: 25px;
     }
+
     .intro-box {
         width: 550px;
         margin-left: 25px;
     }
+
     .intro-row {
-        width: 500px;
+        width: 550px;
     }
+
+    .intro-box:hover {
+        background-image: url("../img/images/iphones1.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .intro-box:hover .intro-row {
+        display: none;
+    }
+
     .intro-title {
         width: 500px;
         font-size: 45px;
         text-align: center;
         margin-left: 20px;
     }
+
     .intro-text {
         width: 500px;
         text-align: center;
         margin-left: 20px;
+
     }
+
     .intro-background {
         display: none;
     }
+
     .intro-btn {
         margin-left: 190px;
     }
+
     .burger-btn {
         display: block;
     }
-} 
+
+    .nav-search {
+        display: none;
+    }
+
+    .nav-cart {
+        display: none;
+    }
+
+    .category-box {
+        margin-left: 25px;
+        display: block;
+    }
+
+    .category-laptop {
+        margin-left: 0px;
+        width: 550px;
+    }
+
+    .category-watch {
+        margin-left: 0px;
+        width: 550px;
+    }
+
+    .watch-img {
+        margin-left: 0px;
+        width: 350px;
+    }
+
+    .category-list {
+        margin-top: 80px;
+    }
+
+    .category-phone {
+        width: 267px;
+        margin-left: 0px;
+    }
+
+    .category-table {
+        width: 267px;
+    }
+
+    .phone-img {
+        width: 267px;
+    }
+
+    .table-img {
+        width: 267px;
+    }
+
+    .products-box {
+        width: 550px;
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .technic {
+        margin-left: 150px;
+    }
+
+    .sales-row {
+        display: block;
+        flex-wrap: wrap;
+    }
+
+    .sales_title {
+        padding-top: 20px;
+    }
+
+    .sales-box {
+        width: 550px;
+        margin-left: 25px;
+    }
+
+    .sales-explore {
+        margin-left: 180px;
+    }
+
+    .sales-watch {
+        margin-left: 145px;
+    }
+
+    .sales-apple {
+        margin-left: 130px;
+    }
+
+    .sales-laptop {
+        margin-left: 100px;
+    }
+    .ideas-row {
+        display: block;
+        flex-wrap: wrap;
+    }
+    .idea-book {
+        width: 600px;
+    }
+    .ideas-sentence {
+        font-size: 22px;
+        margin-left: 25px;
+    }
+    .search-input {
+        width: 550px;
+        margin: 25px;
+    }
+    .search-input input {
+        border-radius: 100px;
+    }
+    .search-row{
+        width: 550px;
+        margin-left: 25px;
+    }
+    .search-low {
+        width: 450px;
+        margin-left: 75px;
+    }
+    .search-ad {
+        width: 550px;
+        margin-left: 25px;
+    }
+    .s-ad-box {
+        margin-left: 75px;
+    }
+    .s-ad-img{
+        margin-left: 165px;
+    }
+    .s-ad-text {
+        margin-left: 75px;
+        width: 400px;
+    }
+    .footer-row {
+        width: 600px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .footer-box {
+        margin-left: 25px;
+    }
+    .footer-links {
+        margin-left: 25px;
+    }
+    .links-1 {
+        margin-top: 19px;
+    }
+    .f-low-title {
+        width: 250px;
+    }
+    .f-low-text {
+        margin-left: 0px;
+        width: 250px;
+    }
+}

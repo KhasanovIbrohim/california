@@ -86,11 +86,12 @@
 }
 
 .burger-box {
+    transition: all 0.3s;
     position: absolute;
     display: none;
     width: 600px;
     background-color: white;
-    min-height: 100%; 
+    height: 300px;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
@@ -766,6 +767,10 @@
     margin-top: 19px;
 }
 
+.footer-box {
+    margin-left: 73px;
+}
+
 .footer-row {
     display: flex;
     padding-top: 55px;
@@ -852,4 +857,20 @@
 
 .f-low-text img {
     transform: translateY(9px);
+}
+
+.links-1 {
+    margin-left: 118px;
+}
+
+.links-2 {
+    margin-left: 93px;
+}
+
+.links-3 {
+    margin-left: 121px;
+}
+
+.links-4 {
+    margin-left: 124px;
 }
