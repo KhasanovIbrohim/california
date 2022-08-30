@@ -5,6 +5,9 @@
 
     .nav {
         width: 600px;
+        position: fixed;
+        background-color: white;
+        margin-top: -100px;
     }
 
     .nav-list {
@@ -15,9 +18,14 @@
         margin-left: 25px;
     }
 
+    .intro {
+        margin-top: 100px;
+    }
+
     .intro-box {
         width: 550px;
         margin-left: 25px;
+
     }
 
     .intro-row {
