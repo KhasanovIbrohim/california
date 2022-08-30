@@ -50,7 +50,6 @@
                     <li class="nav-li dropdown-start">
                         <a href="#solutions" class="nav-link">Solutions</a>
                     </li>
-                    <img src="./img/logos/Vector.png" alt="vactor" class="nav-vector">
                     <li class="nav-li">
                         <a href="#about" class="nav-link">About</a>
                     </li>
@@ -58,8 +57,8 @@
                         <a href="#support" class="nav-link">Support</a>
                     </li>
                 </ul>
-                <img src="./img/logos/search.png" alt="logo" class="nav-search">
-                <img src="./img/logos/cart.png" alt="logo" class="nav-cart">
+                <a href="#solutions"><img src="./img/logos/search.png" alt="logo" class="nav-search"></a>
+                <a href="#products"><img src="./img/logos/cart.png" alt="logo" class="nav-cart"></a>
             </div>
             <div class="nav-dropdown">
                 <li class="dropdown-li">
@@ -80,7 +79,9 @@
                     </p>
                     <button class="intro-btn">Explore</button>
                 </div>
-                <img src="./img/images/iphones1.png" alt="background" class="intro-background">
+                <img src="./img/images/iphones1.png" alt="background" class="intro-background intro-phone">
+                <img src="./img/images/introwatch.png" alt="background" class="intro-background intro-watch">
+                <img src="./img/images/introlaptop.png" alt="background" class="intro-background intro-laptop">
             </div>
         </div>
     </section>
@@ -246,8 +247,8 @@
                 <h1 class="s-ad-title">Never miss a thing</h1>
                 <h1 class="s-ad-text">Sign up for texts to be notified about our best offers on the perfect gifts.</h1>
                 <img src="./img/images/searchapple.png" alt="apple" class="s-ad-img">
-                <form class="s-ad-box">
-                    <input type="email" placeholder="Your email">
+                <form class="s-ad-box" action="/" method="POST" enctype="application/x-www-form-urlencoded">
+                    <input type="email" placeholder="Your email" name="email">
                     <button type="submit">Sign up</button>
                 </form>
             </div>
