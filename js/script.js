@@ -1,6 +1,7 @@
 var burgerBox = document.querySelector('.burger-box')
 var closeBtn = document.querySelector('.burger-close')
 var openBtn = document.querySelector('.burger-btn')
+var introrow = document.querySelector('.intro-box');
 function burgerOpen(){
     burgerBox.style.display = 'block';
     closeBtn.style.display = 'block';

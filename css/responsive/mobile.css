@@ -8,6 +8,7 @@
         position: fixed;
         background-color: white;
         margin-top: -100px;
+        z-index: 5;
     }
 
     .nav-list {
@@ -25,7 +26,25 @@
     .intro-box {
         width: 550px;
         margin-left: 25px;
+        background-size: cover;
+        background-position: center;
+    }
 
+    .intro-box:hover {
+        background-image: url("../../img/images/iphones1.png");
+    }
+
+    .intro-box:hover .intro-row {
+        background-color: black;
+        opacity: 0.7;
+    }
+
+    .intro-box:hover .intro-title {
+        color: white;
+    }
+
+    .intro-box:hover .intro-text {
+        color: white;
     }
 
     .intro-row {
@@ -141,6 +160,10 @@
 
     .sales-apple {
         margin-left: 130px;
+    }
+
+    .mobile {
+        display: block;
     }
 
     .sales-laptop {

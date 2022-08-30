@@ -127,6 +127,11 @@
     cursor: pointer;
 }
 
+.mobile {
+    display: none;
+    text-decoration: underline;
+}
+
 .intro-box {
     background: var(--light-gray);
     height: 550px;
