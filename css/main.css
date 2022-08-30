@@ -84,6 +84,7 @@
     border: none;
     margin-top: 10px;
     margin-left: 80px;
+    display: none;
 }
 
 .burger-box {

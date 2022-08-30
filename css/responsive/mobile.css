@@ -24,16 +24,6 @@
         width: 550px;
     }
 
-    .intro-box:hover {
-        background-image: url("../img/images/iphones1.png");
-        background-size: cover;
-        background-position: center;
-    }
-
-    .intro-box:hover .intro-row {
-        display: none;
-    }
-
     .intro-title {
         width: 500px;
         font-size: 45px;
