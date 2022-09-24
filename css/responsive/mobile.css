@@ -235,4 +235,8 @@
         height: 29px;
         width: 30px;
     }
+
+    .intro-background {
+        display: none;
+    }
 }
