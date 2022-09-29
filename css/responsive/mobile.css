@@ -122,6 +122,7 @@
     }
 
     .technic {
+        margin-top: 25px;
         margin-left: 150px;
     }
 
@@ -251,5 +252,72 @@
     .intro-phone {
         width: 550px;
         margin-left: 0px;
+    }
+
+    /*New  Version 17 */
+
+    .category-laptop:hover {
+        box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+    }
+    
+    .category-laptop:hover .laptop-img {
+        margin-left: 50px;
+    }
+    
+    .category-laptop:hover .laptop-title {
+        transform: translateX(-425px);
+    }
+    
+    .category-laptop:hover .laptop-text {
+        transform: translateX(-300px);
+    }
+    
+    .category-watch:hover {
+        box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+        transform: translateY(-22px);
+    }
+    
+    .category-watch:hover .watch-img {
+        transform: translateX(180px);
+    }
+    
+    .category-watch:hover .watch-title {
+        transform: translateX(-400px);
+    }
+    
+    .category-watch:hover .watch-text {
+        transform: translateX(-400px);
+    }
+    
+    .category-table:hover {
+        box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+    }
+    
+    .category-table:hover .table-img {
+        transform: translateY(-110px);
+    }
+    
+    .category-table:hover .table-title {
+        transform: translateY(410px);
+    }
+    
+    .category-table:hover .table-text {
+        transform: translateY(410px);
+    }
+    
+    .category-phone:hover {
+        box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+    }
+    
+    .category-phone:hover .phone-img {
+        transform: translateY(110px);
+    }
+    
+    .category-phone:hover .phone-title {
+        transform: translateY(-410px);
+    }
+    
+    .category-phone:hover .phone-text {
+        transform: translateY(-410px);
     }
 }

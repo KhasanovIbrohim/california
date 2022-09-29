@@ -21,3 +21,99 @@
 .dropdown-li:hover .dropdown-link {
     color: white;
 }
+
+.category-laptop:hover {
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+}
+
+.category-laptop:hover .laptop-img {
+    margin-left: 120px;
+}
+
+.category-laptop:hover .laptop-title {
+    transform: translateX(-500px);
+}
+
+.category-laptop:hover .laptop-text {
+    transform: translateX(-375px);
+}
+
+.category-watch:hover {
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+    transform: translateY(-22px);
+}
+
+.category-watch:hover .watch-img {
+    transform: translateX(200px);
+}
+
+.category-watch:hover .watch-title {
+    transform: translateX(-450px);
+}
+
+.category-watch:hover .watch-text {
+    transform: translateX(-450px);
+}
+
+.category-table:hover {
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+}
+
+.category-table:hover .table-img {
+    transform: translateY(-110px);
+}
+
+.category-table:hover .table-title {
+    transform: translateY(450px);
+}
+
+.category-table:hover .table-text {
+    transform: translateY(450px);
+}
+
+.category-phone:hover {
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+}
+
+.category-phone:hover .phone-img {
+    transform: translateY(110px);
+}
+
+.category-phone:hover .phone-title {
+    transform: translateY(-450px);
+}
+
+.category-phone:hover .phone-text {
+    transform: translateY(-450px);
+}
+
+.technic:hover {
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
+    cursor: pointer;
+    transform: scale(1.1);
+    border-radius: 40px;
+    background-color: rgb(29, 29, 29);
+}
+
+.technic:hover .technic-price {
+    margin-top: 7px;
+}
+
+.technic:hover .technic-title {
+    color: white;
+}
+
+.technic:hover .technic-text {
+    color: white;
+}
+
+.technic:hover .technic-price {
+    color: white;
+}
+
+
+.search-product:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

@@ -4,6 +4,23 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    transition: 0.3s all ease;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: black;
 }
 
 .container {
@@ -211,6 +228,10 @@
     height: 550px;
 }
 
+.intro-laptop {
+    display: none;
+}
+
 /* @keyframes show {
     from {
         margin-left: 647px;
@@ -258,11 +279,13 @@
     width: 639px;
     background: #FFFFFF;
     margin-left: 73px;
-    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+    transition: 0.3s all ease;
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 25%);
 }
 
 .laptop-img {
     margin-left: 42px;
+    z-index: 2;
 }
 
 .laptop-title {
@@ -274,6 +297,7 @@
     text-align: right;
     color: var(--danger-black);
     margin-right: 42px;
+    z-index: 1;
 }
 
 .laptop-text {
@@ -285,13 +309,15 @@
     text-align: right;
     color: var(--danger-black);
     margin-right: 42px;
+    z-index: 1;
 }
 
 .category-watch {
     margin-top: 72px;
     margin-left: 73px;
     display: flex;
-    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+    transition: 0.3s all ease;
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 25%);
 }
 
 .watch-box {
@@ -301,6 +327,7 @@
 
 .watch-img {
     margin-left: 42px;
+    z-index: 2;
 }
 
 .watch-title {
@@ -311,6 +338,7 @@
     line-height: 19px;
     text-align: right;
     color: var(--danger-black);
+    z-index: 1;
 }
 
 .watch-text {
@@ -321,6 +349,7 @@
     line-height: 38px;
     text-align: right;
     color: var(--danger-black);
+    z-index: 1;
 }
 
 .laptop-img {
@@ -341,7 +370,9 @@
     left: 0px;
     top: 0px;
     margin-left: 16px;
+    transition: 0.3s all ease;
     box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 25%);
 }
 
 .phone-title {
@@ -353,6 +384,7 @@
     text-align: center;
     color: var(--danger-black);
     margin-top: 41px;
+    z-index: 1;
 }
 
 .phone-text {
@@ -363,14 +395,17 @@
     line-height: 38px;
     text-align: center;
     color: var(--danger-black);
+    z-index: 1;
 }
 
 .phone-img {
     margin-top: 144px;
+    z-index: 2;
 }
 
 .table-img {
     margin-top: 42px;
+    z-index: 2;
 }
 
 .category-table {
@@ -379,7 +414,8 @@
     width: 312px;
     left: 0px;
     top: 0px;
-    box-shadow: 0px 0px 10px 1px rgb(119, 118, 118);
+    transition: 0.3s all ease;
+    box-shadow: 0px 4px 35px rgb(0 0 0 / 25%);
 }
 
 .table-title {
@@ -391,6 +427,7 @@
     text-align: center;
     color: var(--danger-black);
     margin-top: 114px;
+    z-index: 1;
 }
 
 .table-text {
@@ -401,6 +438,7 @@
     line-height: 38px;
     text-align: center;
     color: var(--danger-black);
+    z-index: 1;
 }
 
 .products-title {
@@ -433,6 +471,8 @@
 
 .technic {
     width: 303px;
+    transition: 0.3s all ease;
+    padding: 15px;
 }
 
 .technic-img {
@@ -693,10 +733,12 @@
     background: #FFFFFF;
     border: 1px solid #C5C5C5;
     border-radius: 200px;
+    transition: 0.3s all ease;
 }
 
 .search-product p {
     padding: 12px 22px 13px 22px;
+    transition: 0.1s all;
 }
 
 .search-ad {
@@ -853,7 +895,7 @@
     color: #000000;
 }
 
-.f-low-text span {
+.f-low-text span a {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -883,9 +925,5 @@
 }
 
 .intro-watch {
-    display: none;
-}
-
-.intro-laptop {
     display: none;
 }
