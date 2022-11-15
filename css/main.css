@@ -179,6 +179,10 @@
     transition: all 0.3s;
 }
 
+.intro-row {
+    margin-left: 24px;
+}
+
 .intro-title {
     font-family: 'Readex Pro';
     font-style: normal;
@@ -187,7 +191,6 @@
     line-height: 70px;
     color: var(--danger-black);
     margin-top: 145px;
-    margin-left: 56px;
     height: 140px;
     width: 588px;
 }
@@ -200,7 +203,6 @@
     line-height: 19px;
     color: var(--danger-black);
     margin-top: 19px;
-    margin-left: 56px;
 }
 
 .intro-btn {
@@ -216,7 +218,6 @@
     border-radius: 200px;
     background-color: var(--light-gray);
     margin-top: 30px;
-    margin-left: 56px;
     transition: all 0.3s;
     border: 2px solid black;
 }
@@ -226,10 +227,6 @@
     animation: 2s show ease;
     width: 647px;
     height: 550px;
-}
-
-.intro-laptop {
-    display: none;
 }
 
 /* @keyframes show {
@@ -924,6 +921,69 @@
     margin-left: 124px;
 }
 
-.intro-watch {
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.slide-dots {
+    position: absolute;
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 395px;
+    margin-top: -34px;
+}
+
+.dot {
+    height: 2px;
+    width: 194px;
+    background-color: #000000;
+    border-radius: 0px;
+}
+
+.active {
+    transition: all 0.3s;
+    box-shadow: 0px 0px 20px 5px black;
+}
+
+.prev-slide {
+    height: 26px;
+    width: 14px;
+    left: 18px;
+    top: 262px;
+    border-radius: 0px;
+    margin-top: 262px;
+    margin-left: 18px;
+    background: #0000;
+    border: none;
+}
+
+.next-slide {
+    height: 26px;
+    width: 14px;
+    border-radius: 0px;
+    background: #0000;
+    border: none;
+    transform: rotate(180deg);
+}
+
+.next-slide-div {
+    margin-left: 1265px;
+    margin-top: 262px;
+    position: absolute;
+}
+
+.intro-mobile {
     display: none;
 }

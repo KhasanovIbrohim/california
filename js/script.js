@@ -3,41 +3,36 @@ var closeBtn = document.querySelector('.burger-close')
 var openBtn = document.querySelector('.burger-btn')
 var introrow = document.querySelector('.intro-box');
 function burgerOpen(){
+    burgerBox.className = "burger-box";
     burgerBox.style.display = 'block';
     closeBtn.style.display = 'block';
     openBtn.style.display = 'none';
 }
 function burgerClose(){
-    burgerBox.style.display = 'none';
+    burgerBox.className = "inactive-burger";
     closeBtn.style.display = 'none';
     openBtn.style.display = 'block';
 }   
-var introTitle = document.querySelector('.intro-title')
-var introText = document.querySelector('.intro-text')
-var introPhone = document.querySelector('.intro-phone')
-var introWatch = document.querySelector('.intro-watch')
-var introLaptop = document.querySelector('.intro-laptop')
 
-setInterval(function () {
-    introTitle.textContent = "The best quality and price."
-    introText.textContent = "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-    introPhone.style.display = "none";
-    introWatch.style.display = "none";
-    introLaptop.style.display = "block";
-}, 4000);
+let slideIndex = 1;
+showSlides(slideIndex);
 
-setInterval(function () {
-    introTitle.textContent = "Ideas have a place here..."
-    introText.textContent = "We Make It Easy To Find The Great Design Talent, Easier... Road Design Handbook For The International Road..."
-    introPhone.style.display = "none";
-    introWatch.style.display = "block";
-    introLaptop.style.display = "none";
-}, 8000);
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-setInterval(function () {
-    introTitle.textContent = "The new phones are here take a look."
-    introText.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis."
-    introPhone.style.display = "block";
-    introWatch.style.display = "none";
-    introLaptop.style.display = "none";
-}, 12000);
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
