@@ -93,10 +93,8 @@ function reveal() {
       var elementVisible = 150;
 
       if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.remove("inactive");
           reveals[i].classList.add("active");
       } else {
-          reveals[i].classList.add("inactive");
           reveals[i].classList.remove("active");
       }
   }

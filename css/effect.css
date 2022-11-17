@@ -106,10 +106,12 @@
 
 .prev-slide:hover {
     transform: scale(1.2);
+    cursor: pointer;
 }
 
 .next-slide:hover {
     transform: scale(1.2) rotate(180deg);
+    cursor: pointer;
 }
 
 
@@ -122,11 +124,12 @@
 
 .reveal.active {
     opacity: 1;
+    box-shadow: none;
 }
 
 .inactive {
-    transition: all 0.3s;
-    transform: scale(0);
+    transition: all 1s ease;
+    transform: translateY(500px) scale(0.1);
 }
 
 .active.fade-bottom {
