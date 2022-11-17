@@ -463,19 +463,26 @@
 .products-box {
     display: flex;
     margin-top: 30px;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 37px;
+    width: 1364px;
 }
 
 .technic {
     width: 303px;
     transition: 0.3s all ease;
     padding: 15px;
+    border: 2px solid white;
 }
 
 .technic-img {
     width: 247px;
     height: 214px;
     margin: 28px 37px 28px 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .technic-title {

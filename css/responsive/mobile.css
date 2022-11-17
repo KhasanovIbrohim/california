@@ -145,11 +145,12 @@
         width: 550px;
         display: block;
         flex-wrap: wrap;
+        margin-left: 25px;
     }
 
     .technic {
         margin-top: 25px;
-        margin-left: 150px;
+        margin-left: 105px;
     }
 
     .sales-row {

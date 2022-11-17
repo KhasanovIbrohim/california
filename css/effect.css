@@ -89,28 +89,11 @@
 
 .technic:hover {
     box-shadow: 0px 4px 35px rgb(0 0 0 / 75%);
-    cursor: pointer;
+    border: 2px solid black;
     transform: scale(1.1);
-    border-radius: 40px;
-    background-color: rgb(29, 29, 29);
+    cursor: pointer;
+    background-color: white;
 }
-
-.technic:hover .technic-price {
-    margin-top: 7px;
-}
-
-.technic:hover .technic-title {
-    color: white;
-}
-
-.technic:hover .technic-text {
-    color: white;
-}
-
-.technic:hover .technic-price {
-    color: white;
-}
-
 
 .search-product:hover {
     background-color: black;
