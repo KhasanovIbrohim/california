@@ -44,6 +44,7 @@ function showSlides(n) {
 }
 
 var productsBox = document.querySelector('.products-box')
+var SearchProductsBox = document.querySelector('.search-products-box')
 
 try {
   fetch('https://california-phones.herokuapp.com/products')
@@ -75,3 +76,30 @@ try {
 } catch (e) {
   console.error(e.message)
 }
+
+
+
+
+
+
+//Scroll Animation
+
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+      var windowHeight = window.innerHeight;
+      var elementTop = reveals[i].getBoundingClientRect().top;
+      var elementVisible = 150;
+
+      if (elementTop < windowHeight - elementVisible) {
+        reveals[i].classList.remove("inactive");
+          reveals[i].classList.add("active");
+      } else {
+          reveals[i].classList.add("inactive");
+          reveals[i].classList.remove("active");
+      }
+  }
+}
+
+window.addEventListener("scroll", reveal);
