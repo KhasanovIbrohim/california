@@ -47,7 +47,7 @@ var productsBox = document.querySelector('.products-box')
 var SearchProductsBox = document.querySelector('.search-products-box')
 
 try {
-  fetch('https://california-phones.herokuapp.com/products')
+  fetch('https://california-phones-back.onrender.com/')
     .then(res => res.json())
     .then(data => {
       for (i = 0; i < data.length; i++) {
